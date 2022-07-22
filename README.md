@@ -1,3 +1,6 @@
+#Ainda não está completo
+Faltando apenas a lógica para gerar os números no início do jogo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

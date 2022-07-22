@@ -29,7 +29,7 @@ const Block: FC<IProps> = ({ colIndex, rowIndex }) => {
     const dispatch = useDispatch<Dispatch<AnyAction>>()
 
     function handleClick() {
-        dispatch(selectedBlock([rowIndex, colIndex]))
+        if (!state.isActive) dispatch(selectedBlock([rowIndex, colIndex]))
     }
 
     return (
